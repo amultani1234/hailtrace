@@ -1,0 +1,39 @@
+!client/package-lock.json
+!client/package.json
+!server/package-lock.json
+!server/package.json
+!client/public/manifest.json
+
+# IDE/MAC OS
+.DS_Store
+.idea
+
+# NPM + ReactJS
+client/build
+client/node_modules
+server/node_modules
+
+# Environment Variables
+.env
+processing/db/.env
+processing/.env
+server/.env
+
+# Python
+**/*/__pycache__
+processing/test.py
+*.pyc
+
+# Virtualenv
+venv
+.pytest_cache
+
+# Project Specific
+processing/utils/srtm/*.tif
+.data
+*.p
+*.tif
+.sonde
+*.log
+*pickle*
+*pic*
